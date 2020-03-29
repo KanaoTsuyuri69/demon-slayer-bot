@@ -1,8 +1,13 @@
 {
-“name”: “greeter-bot”,
-“version”: “1.0.0”,
-“description”: “My First Discord Bot”,
-“main”: “bot.js”,
-“author”: “Your Name”,
-“dependencies”: {}
+  "name": "Demon Slayer Bot",
+  "description": "Demon Slayer Bot",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies":{
+    "discord.js": "11.1.0",
+    "request": "2.01.0"
+  }
 }
